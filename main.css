@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 10em;
+    text-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.sec1 {
+    background: url(./img01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec2 {
+    background: url(./img02.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec3 {
+    background: url(./img03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 {
+    background: url(./img04.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec5 {
+    background: url(./img05.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec6 {
+    background: url(./img06.jpg);
+    background-size: cover;
+    background-position: center;
+}

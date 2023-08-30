@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jquery.pagepiling.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="pagepiling">
+        <div class="section sec1"><h2>Austria</h2></div>
+        <div class="section sec2"><h2>Finland</h2></div>
+        <div class="section sec3"><h2>Iceland</h2></div>
+        <div class="section sec4"><h2>Switzerland</h2></div>
+        <div class="section sec5"><h2>Norway</h2></div>
+        <div class="section sec6"><h2>Canada</h2></div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./jquery.pagepiling.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#pagepiling').pagepiling({
+                navigation: {
+                    'textColor': '#fff',
+                    'bulletsColor': '#fff',
+                    'position': 'right',
+                    'tooltips': ['Austria', 'Finland', 'Iceland', 'Switzerland', 'Norway', 'Canada']
+                }
+            })
+        })
+    </script>
+</body>
+</html>
